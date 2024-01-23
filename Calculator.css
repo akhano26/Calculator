@@ -1,0 +1,52 @@
+
+.main1{
+display:flex;
+align-items: center;
+justify-content: center;
+margin-top: 1rem;
+}
+.main{
+border-radius: 1rem;
+border: 1px solid black;
+padding:1rem;
+background-color: cyan;
+width: 20rem;
+
+}
+
+.input{
+ border-radius: 10px;
+ border: .1rem solid black;
+
+}
+.input input{
+  outline-style:none;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the gap between buttons as needed */
+  margin-left:.3rem;
+ margin-top: .5rem;
+
+}
+.buttons  button{
+  flex: 1 0 calc(33.333% - 10px); /* 33.333% width for each button with gap */
+  box-sizing: border-box;
+  border-radius: 6px;
+ }
+
+
+.buttons3{
+display: flex;
+gap: 1rem;
+margin-top: .2rem;
+}
+.buttons3 button{
+  width: 3rem;
+  border-radius: .5rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+}
